@@ -1,0 +1,127 @@
+.cubex-breadcrumb {
+    margin: 30px 0px 22px 0px;
+}
+.cubex-breadcrumb * {
+    list-style-type: none;
+    color: #b3bbc3;
+    margin: 0;
+    padding: 0;
+}
+.cubex-breadcrumb-content {
+    display: flex;
+    gap: 20px;
+}
+.cubex-breadcrumbs-item {
+    color: #b3bbc3;
+}
+.cubex-breadcrumbs-active {
+    color: #e1e4e9;
+}
+
+.cubex-container-fluid {
+    padding: 0px 47px;
+}
+.cubex-bg-primary {
+    background: #0e3150;
+}
+.cubex-bg-secondary {
+    background: #1f2324;
+}
+.cubex-text-secondary {
+    color: #a8b6ba;
+}
+.cubex-text-primary {
+    color: #f0dfce;
+}
+.cubex-card-title {
+    font-style: normal;
+
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0;
+
+    font-weight: 500;
+}
+.cubex-card-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+}
+.cubex-box-wrapper {
+    border-radius: 8px;
+    padding: 20px 38px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.cubex-card {
+    background: #1f2324;
+    border-radius: 8px;
+    min-height: 310px;
+}
+
+.cubex-cards {
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+}
+
+.cubex-nav-link,
+.cubex-nav-link:hover {
+    text-decoration: none;
+    color: white;
+}
+.cubex-nav-link {
+    height: 51px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.cubex-collapse {
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    background-color: transparent;
+}
+.cubex-collapse-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.collapse-menu {
+    margin: 0 20px;
+    height: 51px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 20px;
+    width: 78%;
+}
+.cubex-navbar-primary {
+    background: #0e3150;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.cubex-sidebar-secondary {
+    background: #1f2324;
+}
+
+@media (min-width: 600px) {
+    .cubex-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .cubex-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

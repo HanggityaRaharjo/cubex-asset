@@ -1,0 +1,178 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #navbar #nav-menu {
+    display: none;
+  }
+  #navbar #responsive-nav {
+    display: flex;
+    justify-content: end;
+  }
+  #home-section #api-title {
+    font-size: 20px;
+  }
+  #home-section {
+    min-height: 60vh;
+  }
+  #mars-image {
+    transform: translateY(700px);
+  }
+  #profile-section #profile-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #profile-section #profile-content {
+    font-size: 14px;
+  }
+  #profile-item {
+    flex-direction: column;
+  }
+  #profile-item .profile {
+    width: 100%;
+  }
+  #profile-section #profile-content p {
+    width: 100%;
+  }
+  #profile-section #profile-content p {
+    margin-bottom: 10px;
+  }
+
+  #profile-additional {
+    flex-direction: column;
+  }
+  #profile-additional .profile-additional-item {
+    width: 100%;
+  }
+  #profile-additional-title {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: normal;
+  }
+  #profile-additional-content {
+    font-size: 14px;
+    line-height: normal;
+  }
+  #xnet-title {
+    font-size: 80px;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  #xnet-content {
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 700;
+    width: 100%;
+  }
+  #x-net-item .x-net-item {
+    width: 100%;
+  }
+  #x-net-image .image-1 {
+    position: absolute;
+    right: -150px;
+    top: 170px;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+  }
+  #x-net-image .image-2 {
+    position: absolute;
+    right: 10px;
+    top: 250px;
+    width: 500px;
+    height: 500px;
+    transform: scale(80%);
+    z-index: 1;
+  }
+  #x-net-image .image-3 {
+    position: absolute;
+    right: 170px;
+    top: 320px;
+    width: 500px;
+    height: 500px;
+    transform: scale(60%);
+  }
+  #feature-title {
+    font-size: 50px;
+  }
+  #contact-section #contact-form {
+    flex-direction: column-reverse;
+  }
+  #contact-section #contact-form .contact-form-item {
+    width: 100%;
+  }
+  #contact-title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+  }
+  #contact-content {
+    width: 100%;
+    font-family: RockoFLF;
+    font-size: 14px;
+    line-height: normal;
+  }
+  #contact-form-social {
+    flex-direction: column;
+  }
+  #contact-form-social div:nth-child(2) p {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #navbar #nav-menu {
+    display: none;
+  }
+  #navbar #responsive-nav {
+    display: block;
+  }
+  #navbar #responsive-nav {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #navbar #nav-menu {
+    display: flex;
+  }
+  #navbar #responsive-nav {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #x-net-image .image-1 {
+    position: absolute;
+    right: -150px;
+    top: 0;
+    width: 800px;
+    height: 800px;
+    z-index: 2;
+  }
+  #x-net-image .image-2 {
+    position: absolute;
+    right: 300px;
+    top: 250px;
+    width: 800px;
+    height: 800px;
+    transform: scale(80%);
+    z-index: 1;
+  }
+  #x-net-image .image-3 {
+    position: absolute;
+    right: 650px;
+    top: 400px;
+    width: 800px;
+    height: 800px;
+    transform: scale(60%);
+  }
+}
